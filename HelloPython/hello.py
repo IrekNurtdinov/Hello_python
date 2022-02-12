@@ -263,7 +263,7 @@ def f(x):
     elif x == 2.3:
         return 23
     else:
-        return
+        return 
 
 arg = 2
 print(f(arg))
