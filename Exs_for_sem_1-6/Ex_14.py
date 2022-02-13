@@ -1,16 +1,15 @@
 # 14. Подсчитать сумму цифр в вещественном числе.
+# решено
+a = 1.1234
 
-a = 2.375
-
-b = str(a)
-sum = 0
-for i in b:
-    
-    if 0 < i < 9:
-        # d = int(b[i])
-        print(i)
-        # sum += int(b[i])
+def get_sum(number):
+    b = str(number)
+    sum = 0
+    for i in b:    
+        if i != '.':
+            sum += int(i)
+    return sum
     
         
-# print(sum)
+print(get_sum(a))
 
